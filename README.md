@@ -10,7 +10,19 @@ To write a python program to find the rank of a matrix
 ### Step 3: Using the np.linalg.matrix_rank(), we can find the rank of the given matrix.
 ### Step 4: 
 ## Program:
+```
+#Program to find the rank of a matrix.
+#Developed by: S LALIT CHANDRAN
+#RegisterNumber:212223240077
+
+import numpy as np
+a = np.array([[1,2,3],[3,6,9]])
+rank=np.linalg.matrix_rank(a)
+print(rank)
+```
 ## Output:
+![image](https://github.com/lalitchandran/RANK-OF-A-MATRIX/assets/137707725/3568dff7-4b32-4996-8601-0c541b25a9b6)
+
 ## Result:
 Thus the rank for the given matrix is successfully solved by  using a python program.
 
